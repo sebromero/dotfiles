@@ -3,6 +3,7 @@
 brew cask install google-chrome
 brew cask install slack
 brew cask install spotify
+brew install shpotify
 brew cask install whatsapp
 brew cask install pock
 brew cask install flow

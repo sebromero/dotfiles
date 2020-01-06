@@ -8,8 +8,21 @@
 echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.bash_profile
 brew tap caskroom/cask
 
-source dev-tools.sh
 source desktop-apps.sh
-source design-apps.sh
+
+read -p "Do you want to install devleoper tools? " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    source dev-tools.sh    
+fi
+
+read -p "Do you want to install design apps? " -n 1 -r
+echo
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    source design-apps.sh
+fi
+
 source finder-defaults.sh
 source default-apps.sh
