@@ -15,6 +15,7 @@ brew install node
 brew install postgresql
 brew install git
 brew install python3
+brew install yarn
 brew install zsh
 
 npm install -g live-server
