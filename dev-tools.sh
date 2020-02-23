@@ -5,6 +5,7 @@ xcode-select --install
 brew cask install sublime-text
 brew cask install visual-studio-code
 brew cask install arduino
+brew cask install processing
 brew cask install coda
 brew cask install tower
 brew cask install cyberduck
