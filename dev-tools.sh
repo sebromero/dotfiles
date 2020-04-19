@@ -11,6 +11,7 @@ brew cask install tower
 brew cask install cyberduck
 brew cask install iterm2
 brew cask install go2shell
+brew cask install WebPQuickLook
 
 brew install node
 brew install postgresql
